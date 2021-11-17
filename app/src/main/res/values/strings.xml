@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">File Transfer</string>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <string-array name="Image_types">
+        <item value="jpg">jpg</item>
+        <item value="jpeg">jpeg</item>
+        <item value="gif">gif</item>
+        <item value="svg">svg</item>
+        <item value="tif">tif</item>
+        <item value="tiff">tiff</item>
+    </string-array>
+
+    <string-array name="Document_types">
+        <item value="txt">txt/</item>
+        <item value="pdf">pdf</item>
+        <item value="doc">doc/</item>
+        <item value="docx">docx</item>
+        <item value="xls">xls/</item>
+        <item value="xlsx">xlsx</item>
+        <item value="html">html</item>
+        <item value="htm">htm</item>
+    </string-array>
+
+    <string-array name="Video_types">
+        <item value="mp4">mp4</item>
+        <item value="avi">avi/</item>
+        <item value="mov">mov</item>
+        <item value="flv">flv</item>
+        <item value="avchd">avchd</item>
+    </string-array>
+
+    <string-array name="Presentation_types">
+        <item value="ppt">ppt</item>
+        <item value="pptx">pptx</item>
+        <item value="odp">odp/</item>
+        <item value="key">key</item>
+    </string-array>
+
+    <string-array name="Audio_types">
+        <item value="mp3">mp3</item>
+        <item value="wav">wav/</item>
+        <item value="m4a">m4a</item>
+    </string-array>
+
+    <string-array name="file_list">
+        <item value="Image">Image</item>
+        <item value="Document">Document</item>
+        <item value="Video">Video</item>
+        <item value="Presentation">Presentation</item>
+        <item value="Audio">Audio</item>
+    </string-array>
+
+</resources>
